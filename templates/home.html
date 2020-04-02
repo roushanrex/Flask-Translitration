@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+  <title>Profit Prediction</title>
+  </head>
+
+  <body>
+    <h1><div style="text-align:center"><font color="blue">Devnagri Transliteration Model by Roushan</font></div></h1>
+    <hr>
+    </br>
+    <h2><div style="text-align:center"><h2 style="color:#0099ff;">Devnagri Transliteration</h2></div></h2>
+
+  <div class="card text-center" style="width:21.5em;margin:0 auto;">
+
+   <div class="card-body">
+        <p class="card text"><h5><font color="blue">Hindi
+Bengali
+Gujarati
+Punjabi
+Malayalam
+Kannada
+Tamil
+Telugu
+Oriya
+Marathi
+Assamese
+Konkani
+Bodo
+Nepali
+Urdu
+English
+  </font></h5></p>
+        </div>
+        </div>
+ 
+        <p class="card text"><h3><font color="blue">Output: {{prediction}}</font></h3></p>
+        </div>
+        </div>
+
+    </br>
+    <div class='container'>
+      <div class='row'>
+        <div class='col-6'>
+          <form method="POST" action="/predict">
+            <div class="form-group">
+              <label for="NewYork"><p class="font-weight-bold">Please Input language transliteration </p>
+ 
+                <textarea name="NewYork" rows="5" cols="50">
+                </textarea>
+                </label>
+               </div>
+
+              <div class="form-group">
+              <label for="California"><p class="font-weight-bold">Chose Input language transliteration </p>
+             <textarea name="California"  rows="1" cols="20">  
+              </textarea>
+              </label>
+              </div>
+
+               <div class="form-group">
+              <label for="Florida"><p class="font-weight-bold">Chose Output language transliteration </p>
+              <textarea name="Florida" rows="1" cols="20"> 
+              </textarea>   
+              </label>
+              </div>
+
+
+
+               </div>
+                 <input class='btn btn-primary' type='submit' value='Submit'>
+             
+
+            </form>
+
+          </div>
+          </div>
+          </div>
+  </body>
+
+</html>
